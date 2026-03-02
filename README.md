@@ -20,7 +20,6 @@ int main() {
 
     printf("Enter element to search: ");
     scanf("%d", &target);
-
     int result = linearSearch(arr, size, target);
 
     if (result != -1) {
